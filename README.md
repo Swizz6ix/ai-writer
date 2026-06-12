@@ -17,6 +17,7 @@ This mini-project encodes core GenAI engineering patterns:
 - Deterministic control over stochastic outputs
 
 # System Architecture
+```
 [Streamlit UI]
      ↓
 [Input Form]
@@ -28,19 +29,20 @@ This mini-project encodes core GenAI engineering patterns:
 [Response Parser]
      ↓
 [Output Renderer]
+```
 
 # Environment and dependencies
 **conda environment**
 
 *Create Conda and activate conda environment*
 
-**Create conda environment**
+<mark style="background-color: green;">Create conda environment</mark>
 `conda create -n ai-writer python=3.10`
 
-**Activate conda environment**
+==**Activate conda environment**==
 `conda activate ai-writer`
 
-**Install Environment packages**
+<mark style="background-color: green;">Install Environment packages</mark>
 `conda env create -f environment.yml`
 
 **dependencies**
@@ -52,7 +54,7 @@ This mini-project encodes core GenAI engineering patterns:
 `pip install -r requirements.txt`
 
 **dependencies**
-ai-writing-assistant/
+`ai-writing-assistant/
 │
 ├── app.py
 ├── prompt_builder.py
@@ -60,6 +62,7 @@ ai-writing-assistant/
 ├── .env
 └── requirements.txt
 └── environment.yml
+`
 
 # Test Scenarios
 Use structured test cases:
@@ -89,10 +92,10 @@ These turn this from a demo → real product:
 - Slightly professional → Very formal
 
 # ⚠️ Common Pitfalls
-- [x] ❌ Overly vague prompts → weak output
-- [x] ❌ No constraints → inconsistent tone
-- [x] ❌ Hardcoding everything → no flexibility
-- [x] ❌ Ignoring latency/errors → bad UX
+- ❌ Overly vague prompts → weak output
+- ❌ No constraints → inconsistent tone
+- ❌ Hardcoding everything → no flexibility
+- ❌ Ignoring latency/errors → bad UX
 
 # Deliverable Checklist
 Students should end up with:
