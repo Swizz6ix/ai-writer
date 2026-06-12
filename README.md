@@ -36,13 +36,13 @@ This mini-project encodes core GenAI engineering patterns:
 
 *Create Conda and activate conda environment*
 
-<mark style="background-color: green;">Create conda environment</mark>
+<mark style="background-color: yellow;">Create conda environment</mark>
 `conda create -n ai-writer python=3.10`
 
-==**Activate conda environment**==
+<mark style="background-color: yellow;">Activate conda environment</mark>
 `conda activate ai-writer`
 
-<mark style="background-color: green;">Install Environment packages</mark>
+<mark style="background-color: yellow;">Install Environment packages</mark>
 `conda env create -f environment.yml`
 
 **dependencies**
@@ -54,7 +54,8 @@ This mini-project encodes core GenAI engineering patterns:
 `pip install -r requirements.txt`
 
 **dependencies**
-`ai-writing-assistant/
+```
+ai-writing-assistant/
 │
 ├── app.py
 ├── prompt_builder.py
@@ -62,7 +63,7 @@ This mini-project encodes core GenAI engineering patterns:
 ├── .env
 └── requirements.txt
 └── environment.yml
-`
+```
 
 # Test Scenarios
 Use structured test cases:
